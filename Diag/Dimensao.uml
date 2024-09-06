@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Dimensao</OriginalElement>
+  <nodes>
+    <node x="939.0" y="0.0">Promocao</node>
+    <node x="347.0" y="563.0">Data</node>
+    <node x="821.0" y="240.0">TresQuatro</node>
+    <node x="652.0" y="563.0">GerirSupermercado</node>
+    <node x="0.0" y="1143.0">Ficheiro</node>
+    <node x="995.0" y="886.0">Dimensao</node>
+    <node x="0.0" y="886.0">Supermercado</node>
+    <node x="0.0" y="317.0">Limpeza</node>
+    <node x="1065.0" y="240.0">Menos</node>
+    <node x="513.0" y="886.0">Venda</node>
+    <node x="493.0" y="306.0">Mobiliario</node>
+    <node x="233.0" y="306.0">Alimentar</node>
+    <node x="0.0" y="563.0">Cliente</node>
+    <node x="257.0" y="0.0">Produto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TresQuatro" target="Promocao" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="933.0" y="215.0" />
+      <point x="1049.0" y="215.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="Menos" target="Promocao" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="1165.0" y="215.0" />
+      <point x="1049.0" y="215.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="Alimentar" target="Produto" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="Mobiliario" target="Produto" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.0" />
+      <point x="634.5" y="281.0" />
+      <point x="353.0" y="281.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="Limpeza" target="Produto" relationship="GENERALIZATION">
+      <point x="0.0" y="-95.0" />
+      <point x="106.5" y="281.0" />
+      <point x="353.0" y="281.0" />
+      <point x="0.0" y="128.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6702177293934681" showDependencies="false" x="630.3430792435317" y="390.09154194222066" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
